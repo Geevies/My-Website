@@ -1,0 +1,25 @@
+/* -- REUSABLE COMPONENTS -- */
+
+/* -- Andrew Stuntz | Aug 10, 2018 | Flex Rows and Columns -- */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  /* -- Own Modification -- */
+  margin-bottom: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+
+  /* -- Own Modification -- */
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 2px solid rgb(181, 166, 66);
+  background-color: rgba(0, 0, 0, 0.7);
+}

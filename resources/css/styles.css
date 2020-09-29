@@ -1,0 +1,64 @@
+/* -- FULL PAGE -- */
+
+html {
+  color: #e4e4e4;
+  background-image: url("../../vendors/img/background/double-bubble-dark.png");
+}
+
+/* -- HEADER -- */
+
+#header {
+  margin: auto;
+  width: 25%;
+  text-align: center;
+  border-radius: 10%;
+  border: 2px solid rgb(181, 166, 66);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#header h1 {
+  padding-top: 20px;
+}
+
+#header img {
+  display: inline-block;
+  margin-bottom: 20px;
+  max-height: 128px;
+  max-width: 128px;
+  border-radius: 50%;
+  width: 40%;
+  transition: border-radius 0.2s, max-height 0.2s, max-width 0.2s;
+}
+
+#header img:hover {
+  border-radius: 15px;
+  max-height: 160px;
+  max-width: 160px;
+}
+
+
+/* -- FOOTER -- */
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #636363;
+  font-size: 90%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* -- REUSABLE COMPONENTS -- */
+
+p {
+  font-size: 120%;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+h2, p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
