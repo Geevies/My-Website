@@ -8,7 +8,7 @@
   width: 100%;
 
   /* -- Own Modification -- */
-  margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 .column {
@@ -18,8 +18,9 @@
   flex: 1;
 
   /* -- Own Modification -- */
-  margin-left: 15px;
-  margin-right: 15px;
-  border: 2px solid rgb(181, 166, 66);
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 2px solid #b5a642;
+  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
 }
